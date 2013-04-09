@@ -93,6 +93,32 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-family:"calluna";
+    
+    font-size: 36px;
+    
+    line-height: 50px;
+    
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:"nimbus-sans";
+}
+
+h1 {
+    font-size: 220%;
+    
+}
+h2 {
+    font-size: 200%;
+    
+}
+h3 {
+    font-size: 180%;
+    
+}
 
 
 

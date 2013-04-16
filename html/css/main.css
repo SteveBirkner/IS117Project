@@ -130,7 +130,33 @@ h3 {
     
 }
 
+#flaotHead {
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+}
 
+.headerimg {
+    width: 964px;
+    height: 83px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+  
+    
+    
+}
+
+.nav {
+    /*position: fixed;*/
+    
+    float: left;
+    border: 1px solid black;
+    width: 190.59px;
+    height: 63px;
+    
+}
 
 .mainhome {
     width: 960px;

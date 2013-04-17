@@ -101,6 +101,7 @@ textarea {
 }
 
 .navbar {
+    width: 960px;
     position: fixed;
     z-index: 12;
     

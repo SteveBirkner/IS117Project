@@ -94,10 +94,23 @@ textarea {
    ========================================================================== */
 
 
+#boom {
+    height: 800px;
+    width: 960px;
+    
+}
 
+.navbar {
+    position: fixed;
+    z-index: 12;
+    
+}
 
-
-
+.buffer {
+    width: 960px;
+    height: 55px;
+    
+}
 
 
 

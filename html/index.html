@@ -12,7 +12,8 @@
         <!-- Bootstrap -->
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <link href="css/main.css" rel="stylesheet" media="screen">    
+        <link href="css/main.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" type="text/css" href="JSSlide/jquery.pageslide.css" />
             
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -35,11 +36,11 @@
                 <div class="navbar-inner">
                   <a class="brand" href="#">Forefathers of Gaming</a>
                   <ul class="nav">
-                    <li class="active"><a id="lhome" href="#">Home</a></li>
-                    <li><a id="lcre" href="#">Creators</a></li>
-                    <li><a id="lcomp" href="#">Companies</a></li>
-                    <li><a id="lgames" href="#">Games</a></li>
-                    <li><a id="labout" href="#">About Us</a></li>
+                    <li class="active"><a href="#home" class="smoothScroll">Home</a></li>
+                    <li><a href="#creators" class="smoothScroll">Creators</a></li>
+                    <li><a href="#companies" class="smoothScroll">Companies</a></li>
+                    <li><a href="#games" class="smoothScroll">Games</a></li>
+                    <li><a href="#aboutus" class="smoothScroll">About Us</a></li>
                   </ul>
                 </div>
             </div>
@@ -80,7 +81,7 @@
             <a name="creators"/>
             <div class="buffer"></div>
             <div class="conhead">
-               <button type="button" class="btn btn-primary" data-toggle="button">Creators</button>
+               <a href="JSSlide/examples/_secondary.html" class="first"><button type="button" class="btn btn-primary" data-toggle="button">Creators</button></a>
             </div>
             <div class="sidecon">
                     
@@ -124,6 +125,8 @@
             <div class="maincon">
                 
             </div>
+            <div class="buffer"></div>
+            <div class="buffer"></div>
             
         </div>
         
@@ -139,11 +142,16 @@
         <script src="js/main.js"></script>
         <script src="bootstrap/js/bootstrap.js"></script>
          <script src="bootstrap/js/bootstrap.min.js"></script>
-       <!-- <script type="text/javascript" src="//use.typekit.net/kwl0wqt.js"></script> -->  
+     
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
         <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+        <script src="JSSlide/jquery.pageslide.min.js"></script>
+        <script src="JSSlide/jquery.pageslide.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
 
+ <!-- <script type="text/javascript" src="js/smoothscroll.js"></script> -->
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];

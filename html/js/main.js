@@ -2,9 +2,3 @@ $("a.first").pageslide();
 
 
 
-
-
-
-
-
-

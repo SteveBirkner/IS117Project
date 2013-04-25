@@ -1,4 +1,8 @@
-$("a.first").pageslide();
+$("a.creCon").pageslide();
+$("a.compCon").pageslide();
+$("a.gamesCon").pageslide();
+$("a.aboutCon").pageslide();
+
 
 
 //Scroll

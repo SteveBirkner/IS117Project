@@ -15,3 +15,7 @@ $('a[href^="#"]').click(function(event) {
         $('html, body').animate({scrollTop:target}, 500);
         event.preventDefault();
     });
+
+
+//content additoin
+

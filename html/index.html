@@ -20,7 +20,7 @@
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
             
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#navbar">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -42,9 +42,9 @@
                 </div>
             </div>
             
-            <div data-spy="scroll" data-target="navBarSpy" data-offset="50">
-            <div class="buffer"></div>
-            <a name="home" />
+            
+            <div id="home" class="buffer"></div>
+           
             
              <div id="myCarousel" class="carousel slide">
                 <ol class="carousel-indicators">
@@ -79,8 +79,8 @@
                 
             </div>
             
-            <a name="cre" />
-            <div class="buffer"></div>
+           <!-- <a id="cre" name="cre" /> -->
+            <div id="cre" class="buffer"></div>
             <div class="conhead">
                <a href="creators.html" class="first"><button type="button" class="btn btn-primary" data-toggle="button">Creators</button></a>
             </div>
@@ -89,8 +89,8 @@
             </div>
             
             
-             <a name="comp" />
-            <div class="buffer"></div>
+             
+            <div id="comp" class="buffer"></div>
             <div class="conhead">
                <a href="creators.html" class="first"><button type="button" class="btn btn-primary" data-toggle="button">Companies</button></a>
             </div>
@@ -99,8 +99,8 @@
             </div>
             
             
-            <a name="games" />
-            <div class="buffer"></div>
+          
+            <div id="games" class="buffer"></div>
             <div class="conhead">
                <a href="creators.html" class="first"><button type="button" class="btn btn-primary" data-toggle="button">Games</button></a>
             </div>
@@ -109,16 +109,17 @@
             </div>
             
             
-            <a name="about" />
-            <div class="buffer"></div>
+            
+            <div id="about" class="buffer"></div>
             <div class="conhead">
                <a href="creators.html" class="first"><button type="button" class="btn btn-primary" data-toggle="button">About Us</button></a>
             </div>
             <div class="maincon">
                 
             </div>
-        </div>
-            
+        
+         <div class="buffer"></div>
+        <div class="buffer"></div>
             
         </div>
         

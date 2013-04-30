@@ -130,7 +130,7 @@ textarea {
 
 .maincon {
     width: 930px;
-    /*height: 1000px;*/
+    height: auto;
     background-color: #C4C5C6;
     float: left;
     padding: 15px;

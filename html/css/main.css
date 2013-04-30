@@ -109,7 +109,7 @@ textarea {
 
 .buffer {
     width: 960px;
-    height: 55px;
+    height: 45px;
     float: left;
 }
 
@@ -130,14 +130,41 @@ textarea {
 
 .maincon {
     width: 960px;
-    height: 400px;
+    /*height: 1000px;*/
     background-color: #C4C5C6;
     float: left;
+    padding: 15px;
 }
 
+.noDec {
+    text-decoration: none;
+    color: inherit;
+}
 
+.titleHead {
+    margin-bottom: 5px;
+}
 
+.pcon {
+    text-align: left;
+    font-size: 15px;
+    line-height: 21px;
+    text-wrap: normal;
+    text-indent: 1.5em;
+    
+    
+}
 
+.quickInfo {
+    width: 150px;
+    height: 160px;
+    background-color: white;
+    padding: 10px;
+    float: right;
+    margin: 10px;
+    display: block;
+    
+}
 
 
 

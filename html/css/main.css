@@ -109,7 +109,7 @@ textarea {
 
 .buffer {
     width: 960px;
-    height: 45px;
+    height: 55px;
     float: left;
 }
 
@@ -121,12 +121,7 @@ textarea {
     
 }
 
-.sidecon {
-    width: 346px;
-    height: 400px;
-    background-color: #C4C5C6;
-    float: left;
-}
+
 
 .maincon {
     width: 930px;
@@ -143,11 +138,13 @@ textarea {
 
 .titleHead {
     margin-bottom: 5px;
+    color: red;
+    
 }
 
 .pcon {
     text-align: left;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 21px;
     text-wrap: normal;
     text-indent: 1.5em;
@@ -163,6 +160,8 @@ textarea {
     float: right;
     margin: 10px;
     display: block;
+    text-indent: 0em;
+    border-radius:10px;
     
 }
 
@@ -356,4 +355,13 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+
+a {
+    color: red;
+}
+
+.arthead {
+    color: red;
+    
 }

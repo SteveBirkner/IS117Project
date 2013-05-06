@@ -155,7 +155,7 @@ textarea {
 
 .quickInfo {
     width: 150px;
-    height: 160px;
+    height: auto;
     background-color: white;
     padding: 10px;
     float: right;

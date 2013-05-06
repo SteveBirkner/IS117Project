@@ -109,7 +109,7 @@ textarea {
 
 .buffer {
     width: 960px;
-    height: 55px;
+    height: 53px;
     float: left;
 }
 
@@ -129,6 +129,7 @@ textarea {
     background-color: #C4C5C6;
     float: left;
     padding: 15px;
+    border-radius:5px;
 }
 
 .noDec {
@@ -165,7 +166,9 @@ textarea {
     
 }
 
-
+#myCarousel {
+    width: 960px;
+}
 
 /* ==========================================================================
    Helper classes

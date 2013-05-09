@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    
+   
     $('a[href^="#"]').click(function(event) {
 
         
@@ -8,9 +8,13 @@ $(document).ready(function(){
         var target = $(id).offset().top - offset;
         $('html, body').animate({scrollTop:target}, 500);
         event.preventDefault();
+        $('[data-spy="scroll"]').each(function () {
+            var $spy = $(this).scrollspy('refresh');
+        });
     });
     
-  
+    
+    
     
     
         

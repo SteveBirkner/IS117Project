@@ -109,7 +109,7 @@ textarea {
 
 .buffer {
     width: 960px;
-    height: 53px;
+    height: 55px;
     float: left;
 }
 
@@ -154,7 +154,7 @@ textarea {
 }
 
 .quickInfo {
-    width: 150px;
+    width: 250px;
     height: auto;
     background-color: white;
     padding: 10px;
